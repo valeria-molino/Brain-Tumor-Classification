@@ -53,4 +53,18 @@ All experiments share the same training pipeline to ensure fair comparison.
 |---|----------|--------------|--------|
 | 1 | ResNet-18 | Transfer Learning on the last layer | 0.85 |
 | 2 | ResNet-24 | Transfer Learning on the last layer | 0.86 |
-| 3 | **ResNet-18** | **Hyperparameter optimization** | **0.95** |
+| 3 | **ResNet-18** | **From Scratch** | **0.95** |
+
+---
+
+## 🔎 Discussion
+
+Although transfer learning is commonly preferred for small datasets, results show that:
+
+- ImageNet features may not fully align with **MRI texture and intensity patterns**
+
+- Training from scratch allows the model to learn **domain-specific representations**
+
+- With proper regularization and early stopping, overfitting was effectively controlled
+
+This highlights that **transfer learning is not always optimal**, especially when the source and target domains differ significantly.
