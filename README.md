@@ -42,3 +42,5 @@ All experiments share the same training pipeline to ensure fair comparison.
 **Architectures**: ResNet-18, ResNet-34
 
 **Training**: early stopping method with LR scheduler and Adam optimization
+
+![Pipeline](https://github.com/valeria-molino/Brain-Tumor-Classification/blob/main/Pipeline.png)
