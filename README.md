@@ -49,11 +49,22 @@ All experiments share the same training pipeline to ensure fair comparison.
 
 ## 📈 Performance Results
 
-| # | Model | Training | Accuracy | Confusion Matrix |
-|---|----------|--------------|--------|
-| 1 | ResNet-18 | Transfer Learning on the last layer | 0.85 | https://github.com/valeria-molino/Brain-Tumor-Classification/blob/main/Confusion_Matrix_ResNet18_TL.png |
-| 2 | ResNet-24 | Transfer Learning on the last layer | 0.86 | https://github.com/valeria-molino/Brain-Tumor-Classification/blob/main/Confusion_Matrix_ResNet34_TL.png |
-| 3 | **ResNet-18** | **From Scratch** | **0.95** | https://github.com/valeria-molino/Brain-Tumor-Classification/blob/main/Confusion_Matrix_ResNet18_FS.png |
+| Model | Training | Accuracy |
+|------|----------|----------|
+| ResNet-18 | Transfer Learning | 0.85 |
+| ResNet-34 | Transfer Learning | 0.86 |
+| **ResNet-18** | **From Scratch** | **0.95** |
+
+### Confusion Matrices
+
+**ResNet-18 – Transfer Learning**  
+![](https://github.com/valeria-molino/Brain-Tumor-Classification/blob/main/Confusion_Matrix_ResNet18_TL.png)
+
+**ResNet-34 – Transfer Learning**  
+![](https://github.com/valeria-molino/Brain-Tumor-Classification/blob/main/Confusion_Matrix_ResNet34_TL.png)
+
+**ResNet-18 – From Scratch**  
+![](https://github.com/valeria-molino/Brain-Tumor-Classification/blob/main/Confusion_Matrix_ResNet18_FS.png)
 
 ---
 
