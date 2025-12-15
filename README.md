@@ -44,3 +44,13 @@ All experiments share the same training pipeline to ensure fair comparison.
 **Training**: early stopping method with LR scheduler and Adam optimization
 
 ![Pipeline](https://github.com/valeria-molino/Brain-Tumor-Classification/blob/main/Pipeline.png)
+
+---
+
+## 📈 Performance Results
+
+| # | Model | Training | Accuracy |
+|---|----------|--------------|--------|
+| 1 | ResNet-18 | Transfer Learning on the last layer | 0.85 |
+| 2 | ResNet-24 | Transfer Learning on the last layer | 0.86 |
+| 3 | **ResNet-18** | **Hyperparameter optimization** | **0.95** |
